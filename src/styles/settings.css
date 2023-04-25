@@ -1,0 +1,26 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+.container {
+  background: linear-gradient(to bottom right, rgb(22, 155, 178), rgb(3, 5, 35));
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .cats img {
+  max-width: 450px;
+}
+
+.about {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.about .items-about {
+  max-width: 70%;
+}
+.about .items-about img {
+  max-width: 370px;
+}/*# sourceMappingURL=settings.css.map */
